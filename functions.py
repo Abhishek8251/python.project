@@ -49,3 +49,10 @@ def polio (**a):
 polio (name = "suresh ",age = 21 ,school= 'dps')    
 '''
 
+# lambda function -> jan ek function ek line mai aa jaye 
+# lambda -> keyword ek varaible ko convert kiya function mai
+# a,b : a+b -> agar a and b variable ma kuch value aayegi toh hi a+b
+# chalega warna nhi cahlega 
+
+add = lambda a,b : a+b
+print(add(10,20))
